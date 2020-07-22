@@ -24,8 +24,8 @@ public class rotateArray
  	}
 	public static void main(String args[])
 	{
-		int[] arr = {5,8,10,12,15};
-		int d = 2;
+		int[] arr = {1,2,3,4,5};
+		int d = 4;
 		int[] reverseArray = new int[arr.length];
 		reverseArray = reverseArray(arr,0,d-1);
 		reverseArray = reverseArray(reverseArray,d,arr.length-1);
